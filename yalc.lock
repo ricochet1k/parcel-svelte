@@ -1,0 +1,179 @@
+{
+  "version": "v1",
+  "packages": {
+    "@parcel/babel-preset": {
+      "signature": "fa9d886d1930fa03bb9483801b31b9af"
+    },
+    "@parcel/babel-preset-env": {
+      "signature": "289cf3790c93989e765605c5baee9728"
+    },
+    "@parcel/bundler-default": {
+      "signature": "65dabf05f2e65ae9109252c5b3f33ea7"
+    },
+    "@parcel/cache": {
+      "signature": "dcb0353d135b505b4164fcc3ca72a501"
+    },
+    "@parcel/codeframe": {
+      "signature": "eb2d0488a37081e325ac24f35052429f"
+    },
+    "@parcel/config-default": {
+      "signature": "37ac658f295838b88f9ea434e5292126"
+    },
+    "@parcel/core": {
+      "signature": "f4e62f939d0dd65ac82426eddfa34102"
+    },
+    "@parcel/diagnostic": {
+      "signature": "b5d7263c9b130b83fb518c36b22cec6e"
+    },
+    "@parcel/events": {
+      "signature": "555e50c01ec8f88039a1f3c4e9576760"
+    },
+    "@parcel/fs": {
+      "signature": "a67580081a8970d1efe6a89ecb33cd01"
+    },
+    "@parcel/logger": {
+      "signature": "cd6d8f1014cea0a6f2f5d706d8124a2d"
+    },
+    "@parcel/markdown-ansi": {
+      "signature": "f8511f7262b6bd4f25357573d0ec3ad7"
+    },
+    "@parcel/namer-default": {
+      "signature": "28b3504580669f3d79bc8623cd07d377"
+    },
+    "@parcel/optimizer-cssnano": {
+      "signature": "2a2252a5b231441bef33e7e6deb66a0f"
+    },
+    "@parcel/optimizer-htmlnano": {
+      "signature": "92f0d5b1a8121eddfd55f55da3a1e296"
+    },
+    "@parcel/optimizer-terser": {
+      "signature": "1177e26d46f94228a301853f2850d147"
+    },
+    "@parcel/package-manager": {
+      "signature": "351bde113c2870c6e4179d4c68e4ec47"
+    },
+    "@parcel/packager-css": {
+      "signature": "aab879a8b184e91231fed5c5510c5077"
+    },
+    "@parcel/packager-html": {
+      "signature": "5f80928a7c33f293e227443fe05947ba"
+    },
+    "@parcel/packager-js": {
+      "signature": "a155205e687fe990fafe5d7aef6af724"
+    },
+    "@parcel/packager-raw": {
+      "signature": "0a3d635376131ae06a1f3c23d9eb1abd"
+    },
+    "@parcel/packager-ts": {
+      "signature": "1a6c4f895b9e30f085a1e1fb553693ab"
+    },
+    "@parcel/plugin": {
+      "signature": "246e3ca5f11493e5468286cc0055d9cb"
+    },
+    "@parcel/register": {
+      "signature": "a675513e6fa2099a4cefd3f1e45a17ba"
+    },
+    "@parcel/reporter-build-metrics": {
+      "signature": "501063fde3f1fe48e96f8d30bed9ab9c"
+    },
+    "@parcel/reporter-cli": {
+      "signature": "5547043955857a1f05501cb7587ec6fd"
+    },
+    "@parcel/reporter-dev-server": {
+      "signature": "8235f38f03f51efbac7d86ad161da033"
+    },
+    "@parcel/reporter-hmr-server": {
+      "signature": "00616a5e8a5b96ad6d4fbce1d99e69b5"
+    },
+    "@parcel/reporter-json": {
+      "signature": "53b68f0c62ed078ea3d5f2faca247057"
+    },
+    "@parcel/resolver-default": {
+      "signature": "4f86fc35953267de3293fac560e65107"
+    },
+    "@parcel/runtime-browser-hmr": {
+      "signature": "b6c6b01e087e3cd565a416b55fca8e29"
+    },
+    "@parcel/runtime-js": {
+      "signature": "947643a34e17ca54e9138f57b88545c3"
+    },
+    "@parcel/scope-hoisting": {
+      "signature": "d1c04bc8f04c9f6ea61bee3a4f28ed92"
+    },
+    "@parcel/source-map": {
+      "signature": "c3267604d193bb65ec8acac037ecda59"
+    },
+    "@parcel/transformer-babel": {
+      "signature": "ce8c2ee7c94bc3b54981047e707edbe0"
+    },
+    "@parcel/transformer-coffeescript": {
+      "signature": "66776324b50cf612407e6a256c1db25e"
+    },
+    "@parcel/transformer-css": {
+      "signature": "6dc3123f7f6bee2efcd6b97723d4929a"
+    },
+    "@parcel/transformer-html": {
+      "signature": "6c0561a7393bcd6c4f7cf1a0f7c9ed12"
+    },
+    "@parcel/transformer-js": {
+      "signature": "462df46fe75f7747e567cf6c9efd9fc0"
+    },
+    "@parcel/transformer-json": {
+      "signature": "a7d7a4f6c5648196f3343e712e01f055"
+    },
+    "@parcel/transformer-less": {
+      "signature": "4536ff03fb02ffe9520c4dc89f095708"
+    },
+    "@parcel/transformer-postcss": {
+      "signature": "8deca28f63e3c5a42ebdfd04138fbf72"
+    },
+    "@parcel/transformer-posthtml": {
+      "signature": "ba00cf626ea38267ea1fede99a7ef86e"
+    },
+    "@parcel/transformer-pug": {
+      "signature": "9a4b35089dcc4ab5c91a4c69416a0b6a"
+    },
+    "@parcel/transformer-raw": {
+      "signature": "2909ddf8ebb0afa524e2ab28d49f070e"
+    },
+    "@parcel/transformer-sass": {
+      "signature": "4fd40fe33c773603bc6cd94fc670295c"
+    },
+    "@parcel/transformer-stylus": {
+      "signature": "590ddbf109a98a52f507dbed213a15b8"
+    },
+    "@parcel/transformer-sugarss": {
+      "signature": "948868dff50b7d002497d5cf5e326122"
+    },
+    "@parcel/transformer-toml": {
+      "signature": "2e9e4e5e5623fbad97c0918068df577c"
+    },
+    "@parcel/transformer-typescript-tsc": {
+      "signature": "40ae3f9b1775bea756c996f669ca87af"
+    },
+    "@parcel/transformer-typescript-types": {
+      "signature": "cc69e15a939706df6a8d20d64d19756b"
+    },
+    "@parcel/transformer-yaml": {
+      "signature": "8fd38c2a67cbd433041b0f2382852fd8"
+    },
+    "@parcel/types": {
+      "signature": "074c5723476dcfaf1add5fc1805a8dbe"
+    },
+    "@parcel/utils": {
+      "signature": "20dff5b4257e8ebb066a27fe79e2b561"
+    },
+    "@parcel/validator-eslint": {
+      "signature": "0f94bb6dd0db1cfcd54f86b3352e667e"
+    },
+    "@parcel/validator-typescript": {
+      "signature": "2aad31227be2a1246c057bd4de4c8b1a"
+    },
+    "@parcel/workers": {
+      "signature": "abb3ec2ef849a82806f7b7e8be185f30"
+    },
+    "parcel": {
+      "signature": "5d03e6245a3686b2f8315dd41fbd4494"
+    }
+  }
+}

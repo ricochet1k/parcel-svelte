@@ -1,17 +1,19 @@
 {
+    "workspaces": [
+        ".yalc/@*/*",
+        ".yalc/*"
+    ],
+    "private": true,
     "devDependencies": {
         "@parcel/config-default": "^2.0.0-alpha.2",
         "@parcel/plugin": "^2.0.0-alpha.2",
+        "parcel": "^2.0.0-alpha.2.1",
         "parcel-transformer-svelte": "^1.0.2",
         "svelte": "^3.12.1"
     },
-    "scripts": {
-        "parcel": "parcel index.js"
-    },
-    "main": "dist/index.js",
-    "other": "dist/other.js",
     "source": [
-        "index.js"
+        "index.js",
+        "other.js"
     ],
     "targets": {
         "main": {
@@ -21,14 +23,10 @@
                     "not dead"
                 ]
             }
-        },
-        "other": {
-            "engines": {
-                "browsers": [
-                    "> 0.2%",
-                    "not dead"
-                ]
-            }
         }
+    },
+    "scripts": {
+        "clean": "rm -r dist .parcel-cache",
+        "parcel": "parcel build index.js"
     }
 }
