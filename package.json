@@ -1,34 +1,12 @@
 {
-    "devDependencies": {
-        "@parcel/config-default": "^2.0.0-alpha.2",
-        "@parcel/plugin": "^2.0.0-alpha.2",
-        "parcel-transformer-svelte": "^1.0.2",
-        "svelte": "^3.12.1"
-    },
-    "scripts": {
-        "parcel": "parcel index.js"
-    },
-    "main": "dist/index.js",
-    "other": "dist/other.js",
-    "source": [
-        "index.js"
+    "workspaces": [
+        ".yalc/@*/*",
+        ".yalc/*",
+        "packages/*"
     ],
-    "targets": {
-        "main": {
-            "engines": {
-                "browsers": [
-                    "> 0.2%",
-                    "not dead"
-                ]
-            }
-        },
-        "other": {
-            "engines": {
-                "browsers": [
-                    "> 0.2%",
-                    "not dead"
-                ]
-            }
-        }
+    "private": true,
+    "scripts": {
+        "clean": "rm -r packages/parcel-svelte/{dist,.parcel-cache}",
+        "parcel": "cd packages/parcel-svelte; parcel build index.js"
     }
 }
