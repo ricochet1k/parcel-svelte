@@ -8,6 +8,7 @@
     "private": true,
     "scripts": {
         "clean": "rm -r .parcel-cache packages/parcel-svelte/dist",
-        "parcel": "cd packages/parcel-svelte; parcel build index.js"
+        "parcel": "cd packages/parcel-svelte; parcel build index.js other.js",
+        "parcel:watch": "cd packages/parcel-svelte; parcel watch index.js other.js"
     }
 }

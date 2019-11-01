@@ -32,7 +32,7 @@
       "signature": "a67580081a8970d1efe6a89ecb33cd01"
     },
     "@parcel/logger": {
-      "signature": "cd6d8f1014cea0a6f2f5d706d8124a2d"
+      "signature": "a46c8fd6c89215571103801bb9b40113"
     },
     "@parcel/markdown-ansi": {
       "signature": "f8511f7262b6bd4f25357573d0ec3ad7"
@@ -104,7 +104,7 @@
       "signature": "c3267604d193bb65ec8acac037ecda59"
     },
     "@parcel/transformer-babel": {
-      "signature": "ce8c2ee7c94bc3b54981047e707edbe0"
+      "signature": "e0d397beb2305ce256db53cf05d26ac5"
     },
     "@parcel/transformer-coffeescript": {
       "signature": "66776324b50cf612407e6a256c1db25e"
@@ -170,10 +170,13 @@
       "signature": "2aad31227be2a1246c057bd4de4c8b1a"
     },
     "@parcel/workers": {
-      "signature": "abb3ec2ef849a82806f7b7e8be185f30"
+      "signature": "17df8d822f7c84b0055cfd216cf5eaef"
     },
     "parcel": {
-      "signature": "5d03e6245a3686b2f8315dd41fbd4494"
+      "signature": "bd3f05c6a33a342e248e5a0fa92d3f5c"
+    },
+    "parcel-transformer-svelte": {
+      "signature": "0f3cc617b904031a897bf89bffe47da5"
     }
   }
 }
