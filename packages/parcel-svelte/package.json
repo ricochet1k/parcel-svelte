@@ -1,4 +1,7 @@
 {
+    "name": "parcel-svelte",
+    "version": "0.0.1",
+    "private": true,
     "devDependencies": {
         "@parcel/config-default": "^2.0.0-alpha.2",
         "@parcel/plugin": "^2.0.0-alpha.2",

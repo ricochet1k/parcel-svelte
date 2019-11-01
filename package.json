@@ -1,4 +1,5 @@
 {
+    "name": "parcel-svelte-workspace",
     "workspaces": [
         ".yalc/@*/*",
         ".yalc/*",
@@ -6,7 +7,7 @@
     ],
     "private": true,
     "scripts": {
-        "clean": "rm -r packages/parcel-svelte/{dist,.parcel-cache}",
+        "clean": "rm -r .parcel-cache packages/parcel-svelte/dist",
         "parcel": "cd packages/parcel-svelte; parcel build index.js"
     }
 }
